@@ -1,3 +1,4 @@
+/* Carousel Container */
 .carousel-container {
   position: relative;
   overflow: hidden;
@@ -5,8 +6,8 @@
   flex: 0 0 auto;
 }
 
+/* Carousel Slide */
 .carousel-child {
-  display: flex;
   position: relative;
   flex: 0 0 auto;
   height: 100%;
@@ -18,33 +19,7 @@
   display: block;
 }
 
-.carousel-controls {
-  z-index: 1;
-}
-
-.carousel-controls-indicators {
-  position: absolute;
-  padding-bottom: 5px;
-  align-items: center;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 10px;
-}
-
-.carousel-controls-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex: 0 0 auto;
-  background-color: #FFFFFF99;
-}
-
-.active-dot {
-  background-color: #0078D4;
-}
-
+/* Image Slides */
 .hunter-image {
   flex: 0 0 auto;
   background: url('../images/KevinHunter.jpg');
@@ -115,6 +90,34 @@
   background-size: cover;
   width: 400px;
   height: 400px;
+}
+
+/* Carousel Controls */
+.carousel-controls {
+  z-index: 1;
+}
+
+.carousel-controls-indicators {
+  position: absolute;
+  padding-bottom: 5px;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.carousel-controls-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  background-color: #FFFFFF99;
+}
+
+.active-dot {
+  background-color: #0078D4;
 }
 
 .arrow {

@@ -44,9 +44,30 @@ const Experience = () => {
 
       <span className='screen-heading'>PROJECTS</span>
       <div className='screen-list'>
-        <span>GROMMET</span>
-        <span>SUDOKU</span>
-        <span>PORTFOLIO</span>
+        <a
+          className='nav-link'
+          target='_blank'
+          href='https://v2.grommet.io/'
+          rel='noreferrer'
+        >
+          GROMMET
+        </a>
+        <a
+          className='nav-link'
+          target='_blank'
+          href='https://ecstatic-curie-0b65c6.netlify.app/'
+          rel='noreferrer'
+        >
+          SUDOKU
+        </a>
+        <a
+          className='nav-link'
+          target='_blank'
+          href='https://kevingill.net'
+          rel='noreferrer'
+        >
+          PORTFOLIO
+        </a>
       </div>
     </div>
   );

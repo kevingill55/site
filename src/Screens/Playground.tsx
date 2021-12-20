@@ -36,8 +36,8 @@ const Playground = () => {
       <div className='playground-nav'>
         {open && (
           <div className='playground-nav-row'>
-            <Link className='playground-nav-link' to='/coffee'>COFFEE</Link>
-            <Link className='playground-nav-link' to='/design'>DESIGN</Link>
+            <Link className='nav-link' to='/coffee'>COFFEE</Link>
+            <Link className='nav-link' to='/design'>DESIGN</Link>
           </div>
         )}
       </div>
