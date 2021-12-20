@@ -1,0 +1,128 @@
+body, html {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.container {
+  padding: 100px;
+  height: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Navigation */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.nav-item {
+  padding: 6px 16px;
+  letter-spacing: 0.5em;
+  flex: 0 0 auto;
+  font-size: 12px;
+}
+
+/* Screens */
+.screen {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: auto;
+  gap: 5%;
+  font-size: 12px;
+}
+
+.playground-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.playground-menu:hover { 
+  cursor: pointer;
+}
+
+.screen-heading {
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+.screen-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.technologies-table {
+  width: 33%;
+  font-weight: 400;
+}
+
+th {
+  text-align: start;
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.playground-carousels {
+  display: flex;
+  overflow: hidden;
+  gap: 50px;
+  align-items: center;
+}
+
+.playground-nav {
+  height: 10px;
+}
+
+.playground-nav-link {
+  text-decoration: underline;
+  color: #0078D4;
+}
+
+.playground-nav-row {
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  align-items: center;
+}
+
+.color-background {
+  width: 400px;
+  height: 350px;
+}
+
+.color-text {
+  display: flex;
+  padding-top: 10px;
+  flex: 0 0 auto;
+  justify-content: center;
+  height: 50px;
+  font-weight: 600;
+  width: 400px;
+}

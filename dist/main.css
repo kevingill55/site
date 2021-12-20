@@ -1,0 +1,268 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.carousel-child {
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.carousel-controls {
+  z-index: 1;
+}
+
+.carousel-controls-indicators {
+  position: absolute;
+  padding-bottom: 5px;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.carousel-controls-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  background-color: #FFFFFF99;
+}
+
+.active-dot {
+  background-color: #0078D4;
+}
+
+.hunter-image {
+  flex: 0 0 auto;
+  background: url(/5b0375aff9dffe6c39b2.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.snow-mountains-image {
+  flex: 0 0 auto;
+  background: url(/e1d5e54263f2a8877b53.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.cics-image {
+  flex: 0 0 auto;
+  background: url(/8b06704bbd07e1bd7cd5.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.peak-image {
+  flex: 0 0 auto;
+  background: url(/ed48bc127d23e411c021.jpg);
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+.sandwich-image {
+  flex: 0 0 auto;
+  background: url(/e4e587d171bf14b2bda5.jpg);
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+.mountains-image {
+  flex: 0 0 auto;
+  background: url(/8887180742db10e76515.jpeg);
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+.nashville-kk-image {
+  flex: 0 0 auto;
+  background: url(/26d27b0b1f3bccf10f92.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.kevin-ian-image {
+  flex: 0 0 auto;
+  background: url(/2bdcc43f76570788fc8c.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.boston-walking-image {
+  flex: 0 0 auto;
+  background: url(/71db1d251455aa360584.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.arrow {
+  position: absolute;
+  padding: 0px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; 
+}
+
+.arrow-button {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: #FFFFFF99;
+  padding: 6px;
+}
+
+.arrow-button:hover {
+  background-color: #FFFFFFBF;
+  cursor: pointer;
+}
+body, html {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.container {
+  padding: 100px;
+  height: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Navigation */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.nav-item {
+  padding: 6px 16px;
+  letter-spacing: 0.5em;
+  flex: 0 0 auto;
+  font-size: 12px;
+}
+
+/* Screens */
+.screen {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: auto;
+  gap: 5%;
+  font-size: 12px;
+}
+
+.playground-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.playground-menu:hover { 
+  cursor: pointer;
+}
+
+.screen-heading {
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+.screen-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.technologies-table {
+  width: 33%;
+  font-weight: 400;
+}
+
+th {
+  text-align: start;
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.playground-carousels {
+  display: flex;
+  overflow: hidden;
+  gap: 50px;
+  align-items: center;
+}
+
+.playground-nav {
+  height: 10px;
+}
+
+.playground-nav-link {
+  text-decoration: underline;
+  color: #0078D4;
+}
+
+.playground-nav-row {
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  align-items: center;
+}
+
+.color-background {
+  width: 400px;
+  height: 350px;
+}
+
+.color-text {
+  display: flex;
+  padding-top: 10px;
+  flex: 0 0 auto;
+  justify-content: center;
+  height: 50px;
+  font-weight: 600;
+  width: 400px;
+}
