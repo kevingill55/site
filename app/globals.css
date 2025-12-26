@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html, body {
+  font-family: var(--font-roboto-flex), sans-serif;
+  height: 100%;
+  width: 100%;
+  color: #614A27;
+  scrollbar-gutter: stable;
+  background-color: #94b9ee;
+}
+
+@theme inline {
+  --font-heading: var(--font-playfair-display), sans-serif;
+  --font-main: var(--font-roboto-flex), sans-serif;
+  --font-newHeading: var(--font-noto), sans-serif;
+  --color-primary: #1b263b;
+  --color-secondary: #415a77;
+  --color-lightbg: #e0e4e8;
+  --color-main: #2b2b2b;
+  --color-tennis: #D4FC2E;
+  --color-classic-tennis: #386641;
+}
